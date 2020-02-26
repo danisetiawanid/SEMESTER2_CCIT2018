@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create Account</title>
+	<link rel="stylesheet" type="text/css" href="css/login-register.css">
+	<script type="text/javascript" src="jquery/login-register.js"></script>
+	<script type="text/javascript" src="jquery/jquery-3.4.1.js"></script>
+	<script type="text/javascript" src="jquery/jquery.backstretch.min.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		$.backstretch(
+		[
+		"img/bg/img2.jpg",
+		"img/bg/img3.jpg",
+		"img/bg/10.jpg",
+		"img/bg/6.jpg",
+		"img/bg/5.jpg",
+		"img/bg/4.jpg",
+		"img/bg/3.jpg",
+		"img/bg/2.jpg"
+		], 
+		{
+			duration: 1500, 
+			fade: 600
+		});
+	</script>
+	<div id="regis-box">
+		<div class="or">Or</div>
+	<div class="left-box">
+		<h1>Create an Account</h1>
+		<input id="name" type="text" name="Name" placeholder="Full Name" required>
+		<input id="email" type="email" name="Email" placeholder="Email" required>
+		<input id="password" type="Password" name="Password" placeholder="Password" maxlength="10" required>
+		<input id="repasswprd" type="Password" name="Repassword" placeholder="Re-Password" maxlength="10" required>
+		<input type="submit" name="signup-button" value="Sign Up" onclick="register()"/>
+	</div>
+	<div class="right-box">
+		<span class="signinwith">
+			Log In with <br/>Social Media</span>
+			<button class="sosial facebook"><img style="float: left; margin-right: 8px;" src="img/icon/facebook1.ico"> <a href="#" class="coba">Log In with Facebook</a> </button>
+			<button class="sosial twitter"><img style="float: left; margin-right: 8px;" src="img/icon/twitter1.ico"><a href="#" class="coba">Log In with Twitter</a></button><br>
+			<button class="sosial google"><img style="float: left; margin-right: 8px;" src="img/icon/google1.ico"><a href="#" class="coba">Log In with Google+</a></button>
+			<button><a href="login2.html" class="test">Log In With Your Account</a></button>
+	</div>
+</div>
+	
+	<!-- JS REGISTER -->
+	<script type="text/javascript" src="jquery/login-register.js"></script>
+</body>
+</html>

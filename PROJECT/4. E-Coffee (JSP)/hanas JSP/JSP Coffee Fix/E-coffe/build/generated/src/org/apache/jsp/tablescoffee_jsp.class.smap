@@ -1,0 +1,20 @@
+SMAP
+tablescoffee_jsp.java
+JSP
+*S JSP
+*F
++ 0 tablescoffee.jsp
+tablescoffee.jsp
+*L
+5,76:48
+81:124,3
+82,55:127
+137,8:183
+144,2:191
+146,4:193,3
+150,2:205
+152,2:207,3
+154,2:213
+156:215,3
+157,61:218
+*E

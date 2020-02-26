@@ -1,0 +1,20 @@
+SMAP
+edit_005fvoting_jsp.java
+JSP
+*S JSP
+*F
++ 0 edit_voting.jsp
+edit_voting.jsp
+*L
+5,22:47
+27,8:70
+34,4:78
+38:82,3
+39,3:85
+42:88,3
+43,2:91
+45,2:93,3
+47,5:99
+52:104,3
+53,14:107
+*E

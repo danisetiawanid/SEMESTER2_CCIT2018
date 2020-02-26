@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="css/login-register.css">
+<!-- 	<script type="text/javascript" src="jquery/login-register.js"></script> -->
+	<script type="text/javascript" src="jquery/jquery-3.4.1.js"></script>
+	<script type="text/javascript" src="jquery/jquery.backstretch.min.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		$.backstretch(
+		[
+		"img/bg/img2.jpg",
+		"img/bg/img3.jpg",
+		"img/bg/10.jpg",
+		"img/bg/6.jpg",
+		"img/bg/5.jpg",
+		"img/bg/4.jpg",
+		"img/bg/3.jpg",
+		"img/bg/2.jpg"
+		], 
+		{
+			duration: 1500, 
+			fade: 600
+		});
+	</script>
+	<div id="login-box">
+	<div class="left-box">
+		<form class="login-box" onSubmit="login()">
+			<h1>Login</h1>
+			<input id="email" type="email" name="email" placeholder="Email">
+			<input id="password" type="password" name="password" placeholder="Password" maxlength="10"><br>
+			<input type="submit" name="signup-button" value="Login">
+		</form>
+	</div>
+	</div>
+	
+	<!-- JS REGISTER -->
+	<script type="text/javascript" src="jquery/login-register.js"></script>
+</body>
+</html>

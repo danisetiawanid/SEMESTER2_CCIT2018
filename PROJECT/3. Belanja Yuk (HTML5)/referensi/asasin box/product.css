@@ -1,0 +1,69 @@
+@font-face{
+font-family: Questrial;
+src:url(font/Questrial-Regular.ttf);
+}
+
+body{
+	font-family: 'Questrial';
+}
+
+h5{
+letter-spacing: 0.4px;
+font-style: normal;
+color: #333;
+}
+
+h3{
+letter-spacing: 0.4px;
+font-style: normal;
+color: black;
+font-size: 16px;
+}
+
+
+.divproduct{
+	float: left;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+.product{
+float: left;
+text-align: center;
+margin-right: 12px;
+width: 400px;
+height: 580px;
+margin-bottom: 12px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.product:hover{
+	transition-duration: 0.8s;
+	opacity: 0.8;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.productimage{
+	height: 400px;
+	width: 400px;
+}
+
+button {
+	transition-duration: 0.4s;
+	font-size: 12px;
+	padding: 8px 12px;
+	width: 30%;
+	border: 1px solid #000;
+	border-radius: 4px;
+	color: black;
+}
+
+button:hover {
+	background-color: #000;
+	color: white;
+	font-weight: 400px;
+	font-style: normal;
+	color: #fff;
+}
+
