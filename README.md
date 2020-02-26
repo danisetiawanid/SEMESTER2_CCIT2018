@@ -1,5 +1,4 @@
 # SEMESTER2_CCIT2018
-
 This is an activity ISAS and PROJECT while studying in CCIT, Faculty of Engineering, University of Indonesia.
 
 [![Build](https://img.shields.io/badge/Codename_-_danisetiawanid-brightgreen.svg)]()
